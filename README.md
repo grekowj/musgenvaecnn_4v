@@ -1,4 +1,4 @@
-# musgenvae_4v
+# musgenvaecnn_4v
 
 1. Training dataset - public_html/training_dataset/
 2. Generated with CVAE-Base - public_html/generatedSeq_base1/
