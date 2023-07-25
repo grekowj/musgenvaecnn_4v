@@ -28,13 +28,11 @@ SETUP = {
     
     'preset_enc': 'proposed_3',
     # {'proposed', 'proposed_2',  'proposed_small', None}
-    # Use a preset network architecture for the generator or set to None and
-    # setup `MODEL_CONFIG['net_g']` to define the network architecture.
+    
 
     'preset_dec': 'proposed_3',
     # {'proposed',  'proposed_2','proposed_small', 'ablated', 'baseline', None}
-    # Use a preset network architecture for the discriminator or set to None
-    # and setup `MODEL_CONFIG['net_d']` to define the network architecture.
+    
     }
 
 DATA_CONFIG = {
@@ -77,11 +75,7 @@ MODEL_CONFIG = {
     'batch_size': 4,  # 4, 8, 16
     'latent_dim': 32,
     
-    # Tracks
-    # 'track_names': (
-    #     'Drums', 'Piano', 'Guitar', 'Bass', 'Ensemble', 'Reed', 'Synth Lead',
-    #     'Synth Pad'
-    # ),
+    
     'track_names': (
         'All',
     ),
